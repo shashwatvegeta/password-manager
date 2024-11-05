@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# 🔐 SecurePass Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A robust and secure password management application that helps you generate, store, and manage your passwords safely using advanced encryption and biometric authentication.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+### 🎯 Password Generation & Management
+- **Strong Password Generator**: Creates cryptographically secure passwords based on your requirements
+- **Password Strength Checker**: Real-time analysis of password strength using multiple criteria
+- **Custom Categories**: Organize passwords by categories (Work, Personal, Social, etc.)
 
-   ```bash
-   npm install
-   ```
+### 🔒 Security Features
+- **Biometric Authentication**: Secure access to your passwords using fingerprint or face recognition
+- **Military-grade Encryption**: AES-256 encryption for all stored passwords
+- **Secure Notes**: Encrypted storage for sensitive notes and information
 
-2. Start the app
+### 💫 User Experience
+- **Intuitive Interface**: Clean and user-friendly design
+- **Cross-platform Sync**: Seamlessly sync across multiple devices
+- **Quick Search**: Instantly find passwords and related information
+- **Auto-fill Support**: Browser integration for automatic form filling
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Getting Started
 
-In the output, you'll find options to open the app in a
+### Prerequisites
+-TypeScirpt
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
+- Android 8+ for mobile features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/password-manager.git
+cd password-manager
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Start the application:
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📱 Mobile App Features
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Biometric Authentication
+To enable biometric authentication:
+1. Go to Settings
+2. Enable "Biometric Login"
+3. Follow the on-screen instructions to set up your fingerprint/face ID
 
-## Join the community
+### Password Management
+- Tap the '+' button to add a new password
+- Use the built-in password generator for strong passwords
+- Enable biometric authentication for viewing/editing passwords
+- Use the strength meter to check password security
 
-Join our community of developers creating universal apps.
+## 🔑 Security Best Practices
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Enable biometric authentication for maximum security
+- Regularly update your master password
+- Use the password generator for creating new passwords
+- Enable auto-logout feature
+- Regularly backup your encrypted data
+
+
+---
+Made with ❤️ by Shashwat Kumar Singh
