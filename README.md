@@ -23,7 +23,7 @@ A robust and secure password management application that helps you generate, sto
 ## 🚀 Getting Started
 
 ### Prerequisites
--TypeScirpt
+- TypeScirpt
 - Node.js (v14.0.0 or higher)
 - npm (v6.0.0 or higher)
 - Android 8+ for mobile features
